@@ -1,25 +1,25 @@
-// ref unit 20 activity 14
+// ref unit 20 activity 4, 14
 import React from "react";
-//import About from "./pages/About";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
-//import Portfolio from "./pages/Portfolio";
+import Portfolio from "./pages/Portfolio";
 //import Header from "./components/Header";
 //import Footer from "./components/Footer";
 //import Project from "./components/Project";
+import Navbar from "./components/Navbar";
 
 function App() {
+  document.title = "Shayla Stevenson"
   return (
-    <div>
-      {/* <Header /> */}
-
-      {/* <About /> */}
-      <Contact />
-      {/* <Portfolio> */}
-        {/* <Project /> */}
-      {/* </Portfolio> */}
-      
-      {/* <Footer /> */}
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Route exact path="/" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/portfolio" component={Portfolio} />
+      </div>
+    </Router>
   );
 }
 
