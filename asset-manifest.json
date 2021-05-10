@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shayla-stevenson/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/shayla-stevenson/static/js/main.cb68d117.chunk.js",
-    "main.js.map": "/shayla-stevenson/static/js/main.cb68d117.chunk.js.map",
-    "runtime-main.js": "/shayla-stevenson/static/js/runtime-main.6a2bed63.js",
-    "runtime-main.js.map": "/shayla-stevenson/static/js/runtime-main.6a2bed63.js.map",
-    "static/js/2.9efcff2b.chunk.js": "/shayla-stevenson/static/js/2.9efcff2b.chunk.js",
-    "static/js/2.9efcff2b.chunk.js.map": "/shayla-stevenson/static/js/2.9efcff2b.chunk.js.map",
-    "static/js/3.2a6fd52d.chunk.js": "/shayla-stevenson/static/js/3.2a6fd52d.chunk.js",
-    "static/js/3.2a6fd52d.chunk.js.map": "/shayla-stevenson/static/js/3.2a6fd52d.chunk.js.map",
+    "main.css": "/shayla-stevenson/static/css/main.339fd01a.chunk.css",
+    "main.js": "/shayla-stevenson/static/js/main.1b3a949e.chunk.js",
+    "main.js.map": "/shayla-stevenson/static/js/main.1b3a949e.chunk.js.map",
+    "runtime-main.js": "/shayla-stevenson/static/js/runtime-main.8e03fedf.js",
+    "runtime-main.js.map": "/shayla-stevenson/static/js/runtime-main.8e03fedf.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/shayla-stevenson/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9b87939c.chunk.js": "/shayla-stevenson/static/js/2.9b87939c.chunk.js",
+    "static/js/2.9b87939c.chunk.js.map": "/shayla-stevenson/static/js/2.9b87939c.chunk.js.map",
     "index.html": "/shayla-stevenson/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/shayla-stevenson/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.9efcff2b.chunk.js.LICENSE.txt": "/shayla-stevenson/static/js/2.9efcff2b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/shayla-stevenson/static/media/logo.6ce24c58.svg"
+    "static/css/2.4c97ca4f.chunk.css.map": "/shayla-stevenson/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.339fd01a.chunk.css.map": "/shayla-stevenson/static/css/main.339fd01a.chunk.css.map",
+    "static/js/2.9b87939c.chunk.js.LICENSE.txt": "/shayla-stevenson/static/js/2.9b87939c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a2bed63.js",
-    "static/js/2.9efcff2b.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.cb68d117.chunk.js"
+    "static/js/runtime-main.8e03fedf.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9b87939c.chunk.js",
+    "static/css/main.339fd01a.chunk.css",
+    "static/js/main.1b3a949e.chunk.js"
   ]
 }
