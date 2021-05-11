@@ -7,9 +7,8 @@ import Portfolio from "./pages/Portfolio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //import Project from "./components/Project";
-import ProjectDetail from "./pages/ProjectDetail";
+import ProjectDetails from "./pages/ProjectDetails";
 import Navbar from "./components/Navbar";
-import ProjectDetails from "./pages/ProjectDetails"
 
 function App() {
   document.title = "Shayla Stevenson"
@@ -22,7 +21,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/projects/:id" component={ProjectDetail} />
+          <Route exact path="/projects/:id" component={ProjectDetails} />
         </Switch>
         <Footer />
       </div>
