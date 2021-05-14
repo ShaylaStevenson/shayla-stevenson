@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-//import projects from "../../scripts/projectData.json";
+//import data from "../../scripts/projectData.json";
 
 function ProjectCard(props) {
   return (
