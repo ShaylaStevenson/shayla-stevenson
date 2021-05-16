@@ -20,36 +20,32 @@
             "id": "2",
             "title": "Employee Directory",
             "image": "./images/employee-directory-700x410.png",
-            "liveUrl": "",
-            "ghRepoUrl": "",
-            "details": "",
-            "contributors": ""
+            "liveUrl": "https://shaylastevenson.github.io/employee-directory/",
+            "ghRepoUrl": "https://github.com/ShaylaStevenson/employee-directory",
+            "details": ""
         },
         {
             "id": "3",
-            "title": "",
-            "image": "",
-            "liveUrl": "",
-            "ghRepoUrl": "",
-            "details": "",
-            "contributors": ""
+            "title": "Workout Tracker",
+            "image": "./images/workout-tracker-700x410.png",
+            "liveUrl": "https://dry-wildwood-27410.herokuapp.com/?id=608337663f09dc00152004e3",
+            "ghRepoUrl": "https://github.com/ShaylaStevenson/workout-tracker",
+            "details": ""
         },
         {
             "id": "4",
-            "title": "",
-            "image": "",
-            "liveUrl": "",
-            "ghRepoUrl": "",
-            "details": "",
-            "contributors": ""
+            "title": "Employee Tracker",
+            "image": "./images/employee-tracker-700x410.png",
+            "liveUrl":"",
+            "ghRepoUrl": "https://github.com/ShaylaStevenson/workout-tracker",
+            "details": ""
         },
         {
             "id": "5",
-            "title": "",
-            "image": "",
+            "title": "Personal Portfolio",
+            "image": "./images/portfolio-700x410.png",
             "liveUrl": "",
-            "ghRepoUrl": "",
-            "details": "",
-            "contributors": ""
+            "ghRepoUrl": "https://github.com/ShaylaStevenson/shayla-stevenson",
+            "details": ""
         }
     ]
