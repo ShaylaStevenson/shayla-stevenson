@@ -7,9 +7,8 @@ function ProjectCard(props) {
   return (
     <div className="col-md-6">
     <div className="card">
-      <div style={{backgroundImage: "url(" + image + ")", width: 100}}>
+      <div style={{backgroundImage: "url(" + image + ")"}}>
       {/* className="img-container"<img alt={props.image} src={props.image} /> */}
-      </div>
       <div className="content"> 
         
           <div className="card-title">
@@ -27,6 +26,8 @@ function ProjectCard(props) {
 
         
       </div>
+      </div>
+      
     </div>
     </div>
    );
