@@ -27,12 +27,13 @@ class PortfolioContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
         <Header />
+        
         {this.renderPage()}
         <Footer />
       </div>

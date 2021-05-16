@@ -4,7 +4,7 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
-    <div className="col-md-5">
+    <div className="col-md-6">
     <div className="card">
       <div className="img-container" style={{width: 350, height: 205}}>
         <img alt={props.title} src={props.image} />
