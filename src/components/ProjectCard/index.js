@@ -6,10 +6,10 @@ function ProjectCard(props) {
   return (
     <div className="col-md-6">
     <div className="card">
-      <div className="img-container" style={{width: 350, height: 205}}>
-        <img alt={props.title} src={props.image} />
+      <div style={{backgroundImage: "url(" + props.image + ")", width: 100}}>
+      {/* className="img-container"<img alt={props.image} src={props.image} /> */}
       </div>
-      <div className="content">
+      <div className="content"> 
         
           <div className="card-title">
             <strong>{props.title}</strong>
