@@ -4,29 +4,29 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
+    <div className="col-md-5">
     <div className="card">
-      <div className="img-container">
-        <img alt={props.title} src={props.image} style={{width="210px"}}/>
+      <div className="img-container" style={{width: 350, height: 205}}>
+        <img alt={props.title} src={props.image} />
       </div>
       <div className="content">
-        <ul>
-          <li>
-            <strong>Title:</strong> {props.title}
-          </li>
-          <li>
-            <strong>Live Deployment:</strong> {props.liveUrl}
-          </li>
-          <li>
-            <strong>Github Repository:</strong> {props.ghRepoUrl}
-          </li>
-          <li>
-            <strong>Details:</strong> {props.details}
-          </li>
-          <li>
-            <strong>Contributors:</strong> {props.contributors}
-          </li>
-        </ul>
+        
+          <div className="card-title">
+            <strong>{props.title}</strong>
+          </div>
+          <p className="card-text">
+            <strong>{props.details}</strong>
+          </p>
+          <p className="card-text">
+            <a href={props.liveUrl}><strong>Go to Live Deployment</strong></a>
+          </p>
+          <p className="card-text">
+            <a href={props.ghRepoUrl}><strong>Visit Github Repository</strong></a>
+          </p>
+
+        
       </div>
+    </div>
     </div>
    );
 }

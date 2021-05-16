@@ -18,7 +18,6 @@ function Portfolio(props) {
             liveUrl={project.liveUrl}
             ghRepoUrl={project.ghRepoUrl}
             details={project.details}
-            contributors={project.contributors}
           />
         ))}
       </div>
