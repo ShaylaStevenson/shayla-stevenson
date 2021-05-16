@@ -3,10 +3,11 @@ import "./style.css";
 //import data from "../../scripts/projectData.json";
 
 function ProjectCard(props) {
+  const image = props.image
   return (
     <div className="col-md-6">
     <div className="card">
-      <div style={{backgroundImage: "url(" + props.image + ")", width: 100}}>
+      <div style={{backgroundImage: "url(" + image + ")", width: 100}}>
       {/* className="img-container"<img alt={props.image} src={props.image} /> */}
       </div>
       <div className="content"> 
