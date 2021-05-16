@@ -9,7 +9,7 @@ function ProjectCard(props) {
       <div className="card my-1 project-card" style={{backgroundImage: "url(" + image + ")", height: "300px"}}>
       
         {/* className="img-container"<img alt={props.image} src={props.image} /> */}
-          <div className="card-content opaq-bg mx-4"> 
+          <div className="card-content opaq-bg m-4"> 
               <h4 className="card-title mt-4">
                 <strong>{props.title}</strong>
               </h4>
