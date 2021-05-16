@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
-import data from "../../scripts/projectData.json";
+import data from "../../assets/scripts/projectData.json";
 
 function Portfolio(props) {
   console.log(data)
@@ -14,6 +14,9 @@ function Portfolio(props) {
             id={project.id}
             key={project.id}
             title={project.title}
+            image={project.image}
+            liveUrl={project.liveUrl}
+            ghRepoUrl={project.ghRepoUrl}
             details={project.details}
             contributors={project.contributors}
           />

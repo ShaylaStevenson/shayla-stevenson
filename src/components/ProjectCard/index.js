@@ -14,6 +14,12 @@ function ProjectCard(props) {
             <strong>Title:</strong> {props.title}
           </li>
           <li>
+            <strong>Live Deployment:</strong> {props.liveUrl}
+          </li>
+          <li>
+            <strong>Github Repository:</strong> {props.ghRepoUrl}
+          </li>
+          <li>
             <strong>Details:</strong> {props.details}
           </li>
           <li>
