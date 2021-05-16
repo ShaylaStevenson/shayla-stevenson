@@ -1,0 +1,17 @@
+.opaq-bg {
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
+    /* align-items: center;
+    justify-content: center; */
+    background-size: cover;
+    text-align: center;
+}
+
+.card-text,
+.card-text a
+{
+    color: black;
+}
+
+.card-text a:hover {
+    color: orange
+}
