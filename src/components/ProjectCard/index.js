@@ -6,22 +6,20 @@ function ProjectCard(props) {
   const image = props.image
   return (
     <div className="col-md-4">
-      <div className="card my-1" style={{backgroundImage: "url(" + image + ")", height: "205px"}}>
+      <div className="card my-1 project-card" style={{backgroundImage: "url(" + image + ")", height: "300px"}}>
       
         {/* className="img-container"<img alt={props.image} src={props.image} /> */}
-          <div className="content opaq-bg m-4"> 
-              <div className="card-title">
+          <div className="card-content opaq-bg mx-4"> 
+              <h4 className="card-title mt-4">
                 <strong>{props.title}</strong>
+              </h4>
+              <div className="card-body card-text pt-0">
+                {props.details}<br></br>
+                <div className="mt-1">
+                  <a href={props.liveUrl}><strong>Go to Live Deployment</strong></a><br></br>
+                  <a href={props.ghRepoUrl}><strong>Visit Github Repository</strong></a>
+                </div>
               </div>
-              <p className="card-text">
-                <strong>{props.details}</strong>
-              </p>
-              <p className="card-text">
-                <a href={props.liveUrl}><strong>Go to Live Deployment</strong></a>
-              </p>
-              <p className="card-text">
-                <a href={props.ghRepoUrl}><strong>Visit Github Repository</strong></a>
-              </p>
           </div>
     
         
