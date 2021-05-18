@@ -44,7 +44,8 @@ form label {
 }
 
 #submit-button {
-    background-color: white;
+    background-color: darkmagenta;
+    color: white
 }
 
 #submit-button:hover {
@@ -52,5 +53,5 @@ form label {
 }
 
 #submit-button:focus {
-    color:darkmagenta;
+    color:lightblue;
 }

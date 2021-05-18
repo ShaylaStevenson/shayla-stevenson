@@ -93,7 +93,7 @@ function Contact() {
                         />
                         <p className="form-text text-muted">We're off to a great start!</p>
                     </div> 
-                    <button type="submit" className="btn btn-success form-text" id="submit-button">
+                    <button type="submit" className="btn btn-lg" id="submit-button">
                         Submit
                     </button>
                     {/* <button className="btn btn-success" type="submit">
