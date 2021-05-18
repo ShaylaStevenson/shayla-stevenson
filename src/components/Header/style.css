@@ -1,0 +1,15 @@
+#portfolio-greeting {
+    border-color:rgb(240, 149, 14);
+    border-width: 15px;
+    border-style: solid;
+    background-color:rgba(173, 216, 230, .5);
+    color:rgb(72, 40, 146);
+    font-size: calc(24px + 3vw);
+    text-align:end;
+}
+
+#custom-portfolio-container {
+    /* background-image: url("images/office-table.jpg");    */
+    background-repeat: no-repeat;
+    background-size: cover;     
+}

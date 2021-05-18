@@ -6,7 +6,7 @@ function Portfolio(props) {
   console.log(data)
     return (
       <div>
-        <h1>Project List</h1>
+        <h1>Recent Projects</h1>
         <div className="row">
           {/* render cards for each project in json file */}
           {data.map(project => (
