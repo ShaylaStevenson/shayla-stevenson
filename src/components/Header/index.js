@@ -1,8 +1,12 @@
 import React from "react";
 import "./style.css";
+import imageData from "../../assets/scripts/imageData.json";
 
 function Header(props) {
+  console.log(imageData);
+  console.log(imageData[0].url);
   return (
+    
     // <div className="hero text-center">
     //     {/* style={{ backgroundImage: `url(${props.backgroundImage})` }} */}
     //     THIS IS A HEADER
@@ -17,7 +21,7 @@ function Header(props) {
                 </div>
                 {/* <!--image--> */}
                 <div className="col-md-4" id="image-div">
-                    <img src="../assets/images/myphoto.jpg" className="img-thumbnail img-responsive" alt="my photo"/>
+                    <img src={imageData[0].url} className="img-thumbnail img-responsive" alt="my photo"/>
                 </div>
 
             </div>

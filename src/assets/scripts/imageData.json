@@ -1,11 +1,8 @@
 [
     {
         "id": "0",
-        "title": "Pet Seeker Palooza",
-        "image": "./images/pet-seeker-palooza-400.png",
-        "liveUrl": "https://shrouded-lake-69367.herokuapp.com/",
-        "ghRepoUrl": "https://github.com/ShaylaStevenson/PetSeekerPalooza",
-        "details": "Find adoptable pets and share images in a pet-friendly, social environment"
+        "title": "myphoto",
+        "url": "./images/myphoto.jpg"
     },
     {
         "id": "1",
