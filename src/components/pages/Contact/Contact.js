@@ -23,70 +23,7 @@ function Contact() {
   };
 
   return(
-    //   <div>
-    //     <div className="mt-4">
-    //         <h2>Reach Out</h2>
-    //     </div>
-    //     <form onSubmit={handleSubmit}>
-    //         <div className="container mt-3 px-5">
-    //             <div className=" row form-group">
-    //                 <div className="col-12">
-    //                     <input
-    //                         className="form-control"
-    //                         type="text"
-    //                         placeholder="Username"
-    //                         name="username"
-    //                         onChange={e => setUsername(e.target.value)}
-    //                     />
-    //                 </div>
-    //             </div>
-    //             <div className="row form-group">
-    //                 <div className="col-12">
-    //                     <input
-    //                         className="form-control"
-    //                         type="email"
-    //                         placeholder="Email"
-    //                         name="email"
-    //                         onChange={e => setEmail(e.target.value)}
-    //                     />
-    //                 </div>
-    //             </div>
-    //             <div className="row form-group">
-    //                 <div className="col-12">
-    //                     <input
-    //                         className="form-control"
-    //                         type="phone"
-    //                         placeholder="Phone Number"
-    //                         name="phone"
-    //                         onChange={e => setPhone(e.target.value)}
-    //                     />
-    //                 </div>
-    //             </div>
-    //             <div className="row form-group">
-    //                 <div className="col-12">
-    //                     <input
-    //                         className="form-control"
-    //                         type="message"
-    //                         placeholder="Leave a message"
-    //                         name="message"
-    //                         onChange={e => setMessage(e.target.value)}
-    //                     />
-    //                 </div>
-    //             </div>
-    //             <button className="btn btn-success" type="submit">
-    //                 Submit
-    //             </button>
-    //         </div>
-    //         <div className="container mt-4">
-    //             <h3>Hello {username}!</h3>
-    //             <p> your email is {email}!</p>
-    //             <p> your phone number is {phone}!</p>
-    //             <p> your message is {message}!</p>
-    //         </div>
-    //     </form>
-
-    //   </div>
-
+    // aside header  
     <main className="container-md">
         <div className="row">
             <div className="col-md-5 ">
@@ -97,7 +34,7 @@ function Contact() {
                     <a href=".\assets\images\Resume - Google Docs.pdf" target="_blank">View my resume</a>
                 </div>
             </div>
-    {/* <!--Content Form--> */}
+    {/* form */}
             <div className="col-md-7 mt-2 p-2">
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -156,27 +93,25 @@ function Contact() {
                         />
                         <p className="form-text text-muted">We're off to a great start!</p>
                     </div> 
-                    <button type="submit" className="btn btn-default form-text" id="submit-button">
+                    <button type="submit" className="btn btn-success form-text" id="submit-button">
                         Submit
                     </button>
                     {/* <button className="btn btn-success" type="submit">
-                    Submit
-                </button> */}
-                {/* test message */}
-                <div className="container mt-4">
-                 <h3>Hello {username}!</h3>
-                 <p> your email is {email}!</p>
-                 <p> your phone number is {phone}!</p>
-                 <p> your message is {message}!</p>
-             </div>
+                        Submit
+                    </button> */}
+                    {/* test message */}
+                    {/* <div className="container mt-4">
+                        <h3>Hello {username}!</h3>
+                        <p> your email is {email}!</p>
+                        <p> your phone number is {phone}!</p>
+                        <p> your message is {message}!</p>
+                    </div> */}
                 </form>
             </div>
         </div>
     </main>
   )
-
 };
 
 
 export default Contact; 
-
