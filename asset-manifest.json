@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shayla-stevenson/static/css/main.cc4e309b.chunk.css",
-    "main.js": "/shayla-stevenson/static/js/main.bd8fbe70.chunk.js",
-    "main.js.map": "/shayla-stevenson/static/js/main.bd8fbe70.chunk.js.map",
+    "main.js": "/shayla-stevenson/static/js/main.b8b8494b.chunk.js",
+    "main.js.map": "/shayla-stevenson/static/js/main.b8b8494b.chunk.js.map",
     "runtime-main.js": "/shayla-stevenson/static/js/runtime-main.8e03fedf.js",
     "runtime-main.js.map": "/shayla-stevenson/static/js/runtime-main.8e03fedf.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/shayla-stevenson/static/css/2.4c97ca4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.fafdfcfe.chunk.js",
     "static/css/main.cc4e309b.chunk.css",
-    "static/js/main.bd8fbe70.chunk.js"
+    "static/js/main.b8b8494b.chunk.js"
   ]
 }
