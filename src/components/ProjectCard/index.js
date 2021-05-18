@@ -6,8 +6,9 @@ function ProjectCard(props) {
   //const image = props.image
   return (
     <div className="col-md-4">
-      <div className="card my-1 project-card" style={{ backgroundImage: props.image, height: "300px"}}>
+      <div className="card my-1 project-card" style={{ backgroundImage: "url(" + props.image + ")", height: "300px"}}>
         {/* style={{backgroundImage: "url(" + image + ")", height: "300px"}} */}
+        {/* <div style={{backgroundImage: "url(" + props.image + ")", width: 100}}></div> */}
       
         {/* className="img-container"<img alt={props.image} src={props.image} /> */}
           <div className="card-content opaq-bg m-4"> 
