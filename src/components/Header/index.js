@@ -12,7 +12,8 @@ function Header(props) {
     //     THIS IS A HEADER
     //   {props.children}
     // </div>
-    <header className="jumbotron jumbotron-fluid mt-0 py-3" style={{ backgroundImage: "url(images/office-table.jpg)" }}>
+    <header className="jumbotron jumbotron-fluid mt-0 py-3" style={{ backgroundImage: "url(" + imageData[1].url + ")" }}>
+      {/* images/office-table.jpg)" */}
         <div className="container">
             <div className="row">
                 {/* <!--text--> */}
