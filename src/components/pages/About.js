@@ -5,7 +5,7 @@ function About() {
         <div>
         <h1>HOME/ABOUT</h1>
 
-        Yo YO
+        Yo YO yo YO
         </div>
     )
 }
