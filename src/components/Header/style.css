@@ -1,14 +1,19 @@
-#portfolio-greeting {
-    border-color:rgb(240, 149, 14);
-    border-width: 15px;
-    border-style: solid;
-    background-color:rgba(173, 216, 230, .5);
-    color:rgb(72, 40, 146);
-    font-size: calc(24px + 3vw);
-    text-align:end;
+.jumbotron {
+    margin-bottom: calc(0px + 1vw);
+    background-color: rgba(139, 0, 139, .8);
 }
 
-#custom-portfolio-container {
-    /* background-repeat: no-repeat; */
-    background-size: 100%;     
+#greeting-div {
+    background-color: lightblue;
+    text-align: end;
+}
+
+#greeting-div h1 {
+    font-size: calc(18px + 4.5vw);
+}
+
+#greeting {
+    color: rgb(240, 149, 14);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
 }
