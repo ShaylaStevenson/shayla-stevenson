@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Footer from "./Footer";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact/Contact";
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
+import Contact from "../pages/Contact";
 
 class PortfolioContainer extends Component {
   state = {

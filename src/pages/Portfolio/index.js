@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "../../components/ProjectCard";
 import data from "../../assets/scripts/projectData.json";
 
 function Portfolio(props) {
