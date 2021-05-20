@@ -6,7 +6,7 @@ import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 
-class PortfolioContainer extends Component {
+class MainContainer extends Component {
   state = {
     currentPage: "About"
   };
@@ -41,4 +41,4 @@ class PortfolioContainer extends Component {
   }
 }
 
-export default PortfolioContainer;
+export default MainContainer;

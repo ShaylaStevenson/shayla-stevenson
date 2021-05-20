@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import "./style.css";
-//import ContactForm from "../components/ContactForm/index"
-//import Container from "../../components/Container";
-////import Col from "../../components/Col";
-//import Row from "../../components/Row";
 import imageData from "../../assets/scripts/imageData.json";
 
 function Contact() {

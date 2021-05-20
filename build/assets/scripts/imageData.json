@@ -8,5 +8,10 @@
         "id": "1",
         "title": "Your Day in Brief",
         "url": "assets/images/office-table.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Resume",
+        "url": "assets/images/Resume - Google Docs.pdf"
     }
 ]

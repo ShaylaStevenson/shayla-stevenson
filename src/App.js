@@ -1,9 +1,9 @@
 //ref unit 19 act 21
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import MainContainer from "./components/MainContainer";
 import './index.css';
 import './App.css';
 
-const App = () => <PortfolioContainer />;
+const App = () => <MainContainer />;
 
 export default App;
