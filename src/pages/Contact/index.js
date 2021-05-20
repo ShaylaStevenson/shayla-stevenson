@@ -4,6 +4,7 @@ import "./style.css";
 //import Container from "../../components/Container";
 ////import Col from "../../components/Col";
 //import Row from "../../components/Row";
+import imageData from "../../assets/scripts/imageData.json";
 
 function Contact() {
   const [username, setUsername] = useState();
@@ -31,7 +32,7 @@ function Contact() {
                 <div id="myInfo" className="m-2 p-2">
                     <h5>More ways to get in touch</h5>
                     <p>shayla.rose.stevenson@gmail.com</p>
-                    <a href=".\assets\images\Resume - Google Docs.pdf" target="_blank">View my resume</a>
+                    <a href={imageData[2].url} target="_blank">View my resume</a>
                 </div>
             </div>
     {/* form */}
