@@ -2,11 +2,11 @@
     {
         "id": "0",
         "title": "myphoto",
-        "url": "assets/images/myphoto.jpg"
+        "url": "images/myphoto.jpg"
     },
     {
         "id": "1",
         "title": "Your Day in Brief",
-        "url": "assets/images/office-table.jpg"
+        "url": "images/office-table.jpg"
     }
 ]
