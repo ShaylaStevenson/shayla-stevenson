@@ -4,9 +4,6 @@ import PortfolioContainer from "./components/PortfolioContainer";
 import './index.css';
 import './App.css';
 
-
-
-
 const App = () => <PortfolioContainer />;
 
 export default App;
