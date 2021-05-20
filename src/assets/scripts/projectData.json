@@ -36,15 +36,15 @@
         "title": "Employee Tracker",
         "image": "assets/images/employee-tracker-400.png",
         "liveUrl":"",
-        "ghRepoUrl": "https://github.com/ShaylaStevenson/workout-tracker",
-        "details": ""
+        "ghRepoUrl": "https://github.com/ShaylaStevenson/employee-tracker",
+        "details": "Add, update, and remove employees from comprehensive database."
     },
     {
         "id": "5",
         "title": "Personal Portfolio",
         "image": "assets/images/portfolio-400.png",
-        "liveUrl": "",
+        "liveUrl": "https://shaylastevenson.github.io/shayla-stevenson/",
         "ghRepoUrl": "https://github.com/ShaylaStevenson/shayla-stevenson",
-        "details": ""
+        "details": "My portfolio's third iteration using React."
     }
 ]
