@@ -22,7 +22,7 @@ function Header(props) {
                 </div>
                 {/* <!--image--> */}
                 <div className="col-md-4" id="image-div">
-                    <img src={imageData[0].url} className="img-thumbnail img-responsive" alt="my photo"/>
+                    <img src={imageData[0].url} className="img-thumbnail img-responsive" alt="Shayla Stevenson"/>
                 </div>
 
             </div>
